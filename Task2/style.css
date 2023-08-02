@@ -308,6 +308,7 @@ section .title::after{
 }
 .skills .skills-content .left p{
     text-align: justify;
+    font-size: 20px;
 }
 .skills .skills-content .left a{
     display: inline-block;
@@ -352,27 +353,32 @@ section .title::after{
     top: 0;
     background: rgb(27, 194, 55);
 }
-.skills-content .right .html::before{
+.skills-content .right .dsa::before{
     width: 90%;
 }
-.skills-content .right .css::before{
-    width: 80%;
-}
-.skills-content .right .js::before{
-    width: 60%;
-}
-.skills-content .right .c::before{
+.skills-content .right .fd::before{
     width: 90%;
+}
+.skills-content .right .bd::before{
+    width: 70%;
 }
 .skills-content .right .cpp::before{
+    width: 90%;
+}
+.skills-content .right .java::before{
+    width: 70%;
+}
+.skills-content .right .sql::before{
     width: 80%;
 }
-.skills-content .right .python::before{
-    width: 60%;
+.skills-content .right .oop::before{
+    width: 80%;
 }
 .skills-content .right .dbms::before{
-    width: 60%;
+    width: 80%;
 }
+
+
 
 /* soft skills */
 .skills .skills-content .column{
@@ -699,3 +705,4 @@ footer span a:hover{
         line-height: 38px;
     }
 }
+
