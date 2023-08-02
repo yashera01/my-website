@@ -214,7 +214,7 @@ section .title::after{
     width: 45%;
 }
 .about .about-content .left img{
-    height: 400px;
+    height: 350px;
     width: 400px;
     object-fit: cover;
     border-radius: 6px;
@@ -223,7 +223,7 @@ section .title::after{
     width: 55%;
 }
 .about .about-content .right .text{
-    font-size: 25px;
+    /* font-size: 25px; */
     font-weight: 600;
     margin-bottom: 10px;
 }
